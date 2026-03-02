@@ -22,25 +22,25 @@ export default function Hero() {
                 <div className="lg:col-span-7 flex flex-col space-y-8 order-2 lg:order-1">
                     <div data-reveal="fade" data-delay="0" className="flex items-center gap-4">
                         <div className="divider-gold" />
-                        <span className="text-xs text-navy/50 uppercase tracking-[0.25em] font-medium">Terapia Cognitivo-Comportamental</span>
+                        <span className="text-xs text-navy/80 uppercase tracking-[0.25em] font-medium">Terapia Cognitivo-Comportamental</span>
                     </div>
 
                     <h1 data-reveal data-delay="100" className="font-serif text-[3.2rem] md:text-[4.2rem] lg:text-[5rem] text-navy leading-[1.05] tracking-[-0.02em]">
                         Espaço de escuta,<br />
-                        <span className="italic text-rose">transformação</span><br />
+                        <span className="italic text-rose-vibrant">transformação</span><br />
                         e acolhimento.
                     </h1>
 
-                    <p data-reveal data-delay="200" className="text-lg md:text-xl text-navy/70 font-normal max-w-lg leading-relaxed">
+                    <p data-reveal data-delay="200" className="text-lg md:text-xl text-navy/90 font-normal max-w-lg leading-relaxed">
                         Psicoterapia baseada em evidências para adultos que buscam compreender seus padrões e construir mudanças reais e sustentáveis.
                     </p>
 
                     <div data-reveal data-delay="300" className="flex flex-col sm:flex-row gap-4 pt-6">
-                        <a href="https://wa.me/558591990688" target="_blank" rel="noreferrer" className="group inline-flex items-center justify-center gap-3 bg-rose text-cream px-10 py-4 rounded-full text-sm font-medium tracking-wide uppercase hover:bg-rose-dark transition-all duration-500 shadow-[0_8px_30px_rgba(194,156,154,0.15)]">
+                        <a href="https://wa.me/558591990688" target="_blank" rel="noreferrer" className="btn-rose group !px-10 !py-4 shadow-lg shadow-rose-vibrant/20">
                             Agendar Sessão
                             <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
                         </a>
-                        <a href="#sobre" className="inline-flex items-center justify-center gap-2 text-navy/60 hover:text-navy px-8 py-4 text-sm tracking-wide uppercase transition-colors duration-300 border border-navy/10 hover:border-navy/25 rounded-full">
+                        <a href="#sobre" className="inline-flex items-center justify-center gap-2 text-navy/80 hover:text-navy px-8 py-4 text-sm tracking-wide uppercase transition-colors duration-300 border border-navy/20 hover:border-navy/40 rounded-full">
                             Conhecer Germana
                         </a>
                     </div>
@@ -65,7 +65,7 @@ export default function Hero() {
                             </div>
                             <div className="px-6 py-5 border-t border-navy/5">
                                 <p className="font-serif text-lg text-navy text-center">Germana Medeiros</p>
-                                <p className="text-xs text-navy/50 text-center uppercase tracking-[0.2em] mt-1">Psicóloga Clínica</p>
+                                <p className="text-xs text-navy/80 text-center uppercase tracking-[0.2em] mt-1">Psicóloga Clínica</p>
                             </div>
                         </div>
                     </div>

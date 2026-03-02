@@ -52,7 +52,7 @@ export default function FAQ() {
                 <div data-reveal="fade" className="text-center mb-16">
                     <div className="flex items-center justify-center gap-4 mb-8">
                         <div className="w-12 h-0.5 bg-gold/90" />
-                        <span className="text-xs text-navy/50 uppercase tracking-[0.25em] font-medium">Dúvidas</span>
+                        <span className="text-xs text-navy/85 uppercase tracking-[0.25em] font-medium">Dúvidas</span>
                         <div className="w-12 h-0.5 bg-gold/90" />
                     </div>
                     <h2 className="font-serif text-4xl lg:text-5xl text-navy mb-4 tracking-tight">
@@ -77,7 +77,7 @@ export default function FAQ() {
                             </button>
                             {openIdx === idx && (
                                 <div className="px-6 pb-6 pt-0">
-                                    <p className="text-sm text-navy/60 font-normal leading-relaxed">{faq.a}</p>
+                                    <p className="text-sm text-navy/90 font-normal leading-relaxed">{faq.a}</p>
                                 </div>
                             )}
                         </div>
@@ -85,10 +85,10 @@ export default function FAQ() {
                 </div>
 
                 <div data-reveal data-delay="200" className="text-center mt-16">
-                    <p className="text-navy/60 mb-6 text-base font-normal">Ainda tem dúvidas?</p>
-                    <a href="https://wa.me/558591990688" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-rose text-cream text-sm px-8 py-4 rounded-full hover:bg-rose-dark transition-all duration-500 tracking-wide uppercase shadow-md shadow-rose/20">
+                    <p className="text-navy/90 mb-6 text-base font-normal">Ainda tem dúvidas?</p>
+                    <a href="https://wa.me/558591990688" target="_blank" rel="noreferrer" className="btn-rose group px-8! py-4! shadow-lg shadow-rose-vibrant/20">
                         Falar com Germana
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
+                        <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
                     </a>
                 </div>
             </div>

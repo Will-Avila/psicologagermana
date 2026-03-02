@@ -4,9 +4,10 @@
   --color-navy: #073450;
   --color-navy-light: #0a4468;
   --color-navy-dark: #052638;
-  --color-rose: #C29C9A;
-  --color-rose-dark: #A67C79;
-  --color-rose-light: #e8d8d7;
+  --color-rose: #D4A3A1;
+  --color-rose-dark: #B58482;
+  --color-rose-light: #F2E2E1;
+  --color-rose-vibrant: #E29A97;
   --color-rose-bg: #f5edec;
   --color-sand: #DED5C9;
   --color-gold: #ECD587;
@@ -20,6 +21,11 @@
 /* Gold gradient utility */
 .gradient-gold {
   background: linear-gradient(135deg, #ECD587, #563D17);
+}
+
+/* Rose gradient utility */
+.gradient-rose {
+  background: linear-gradient(135deg, #E29A97 0%, #D4A3A1 100%);
 }
 
 .text-gradient-gold {
@@ -50,6 +56,36 @@
   filter: brightness(1.08) saturate(1.1);
   box-shadow: 0 12px 40px rgba(212, 168, 67, 0.35);
   transform: translateY(-1px);
+}
+
+/* Rose gradient button — More vibrant CTA */
+.btn-rose {
+  background: linear-gradient(135deg, #E29A97 0%, #C29C9A 100%);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  padding: 0.85rem 2rem;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 15px rgba(226, 154, 151, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-rose:hover {
+  background: linear-gradient(135deg, #ebacaa 0%, #d1a7a5 100%);
+  box-shadow: 0 8px 25px rgba(226, 154, 151, 0.4);
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.btn-rose:active {
+  transform: translateY(0);
 }
 
 html {

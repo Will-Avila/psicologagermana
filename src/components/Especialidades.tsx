@@ -93,7 +93,7 @@ export default function Especialidades() {
                 <div data-reveal="fade" className="text-center mb-16">
                     <div className="flex items-center justify-center gap-4 mb-8">
                         <div className="w-12 h-0.5 bg-gold/90" />
-                        <span className="text-xs text-navy/50 uppercase tracking-[0.25em] font-medium">Especialidades</span>
+                        <span className="text-xs text-navy/80 uppercase tracking-[0.25em] font-medium">Especialidades</span>
                         <div className="w-12 h-0.5 bg-gold/90" />
                     </div>
                 </div>
@@ -104,7 +104,7 @@ export default function Especialidades() {
                             key={idx}
                             data-reveal
                             data-delay={String(idx * 80)}
-                            className="group bg-white/70 backdrop-blur-md rounded-2xl p-8 border border-navy/[0.05] hover-lift"
+                            className="group bg-white/70 backdrop-blur-md rounded-2xl p-8 border border-navy/5 hover-lift"
                         >
                             <div className="w-11 h-11 rounded-full border border-navy/10 group-hover:border-gold group-hover:text-gold flex items-center justify-center text-navy/30 mb-6 transition-all duration-500">
                                 {cat.icon}
@@ -112,7 +112,7 @@ export default function Especialidades() {
                             <h3 className="font-serif text-xl text-navy mb-5 font-medium leading-snug">{cat.title}</h3>
                             <ul className="space-y-2.5">
                                 {cat.items.map((item, i) => (
-                                    <li key={i} className="flex items-start gap-2.5 text-sm text-navy/65 font-normal leading-relaxed">
+                                    <li key={i} className="flex items-start gap-2.5 text-sm text-navy/90 font-normal leading-relaxed">
                                         <span className="w-1 h-1 rounded-full bg-gold/60 mt-2 shrink-0" />
                                         {item}
                                     </li>
@@ -125,23 +125,23 @@ export default function Especialidades() {
                     <div
                         data-reveal
                         data-delay="450"
-                        className="group bg-white/70 backdrop-blur-md rounded-2xl p-8 border border-navy/[0.05] flex flex-col justify-center items-center text-center hover-lift relative overflow-hidden"
+                        className="group bg-white/70 backdrop-blur-md rounded-2xl p-8 border border-navy/5 flex flex-col justify-center items-start text-left hover-lift relative overflow-hidden"
                     >
-                        <div className="relative z-10 w-full flex flex-col items-center">
+                        <div className="relative z-10 w-full flex flex-col items-start">
                             <div className="w-11 h-11 rounded-full border border-navy/10 group-hover:border-gold group-hover:text-gold flex items-center justify-center text-navy/30 mb-6 transition-all duration-500">
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}><path strokeLinecap="round" strokeLinejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" /></svg>
                             </div>
                             <h3 className="font-serif text-xl text-navy mb-4 font-medium leading-snug">
                                 Não encontrou sua demanda?
                             </h3>
-                            <p className="text-sm text-navy/60 font-normal leading-relaxed mb-8 max-w-[240px]">
+                            <p className="text-sm text-navy/90 font-normal leading-relaxed mb-8 max-w-[280px]">
                                 Cada pessoa é única e o acompanhamento é construído de forma individual. Vamos conversar?
                             </p>
                             <a
                                 href="https://wa.me/558591990688"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="inline-flex items-center gap-2 bg-transparent border border-rose/40 text-rose hover:bg-rose hover:text-cream text-xs px-8 py-3.5 rounded-full transition-all duration-500 tracking-wide uppercase shadow-xs hover:shadow-md hover:shadow-rose/10"
+                                className="inline-flex items-center gap-2 bg-transparent border border-rose-vibrant/40 text-rose-vibrant hover:bg-rose-vibrant hover:text-white text-xs px-8 py-3.5 rounded-full transition-all duration-500 tracking-wide uppercase shadow-xs hover:shadow-md hover:shadow-rose-vibrant/20"
                             >
                                 Falar com Germana
                                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>

@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="absolute top-0 left-0 w-full h-[500px] bg-linear-to-b from-navy-light/30 to-transparent pointer-events-none -z-10" />
 
             {/* Top accent line */}
-            <div className="w-full h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent relative z-10" />
+            <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-white/10 to-transparent" />
 
             <div className="container mx-auto px-6 lg:px-12 py-20 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
@@ -25,7 +25,7 @@ export default function Footer() {
 
                     {/* Contact */}
                     <div data-reveal data-delay="100" className="md:col-span-3">
-                        <p className="text-xs text-white/70 uppercase tracking-[0.25em] mb-6 font-medium">Contato</p>
+                        <p className="text-xs text-white/95 uppercase tracking-[0.25em] mb-6 font-medium">Contato</p>
                         <div className="space-y-4">
                             <a href="tel:+558591990688" className="group flex items-center gap-3 text-sm text-white/80 hover:text-white transition-colors duration-300">
                                 <svg className="w-4 h-4 text-white/60 group-hover:text-gold transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
@@ -44,7 +44,7 @@ export default function Footer() {
 
                     {/* Links */}
                     <div data-reveal data-delay="200" className="md:col-span-4">
-                        <p className="text-[11px] text-white/50 uppercase tracking-[0.3em] mb-6">Navegação</p>
+                        <p className="text-[11px] text-white/80 uppercase tracking-[0.3em] mb-6">Navegação</p>
                         <div className="grid grid-cols-2 gap-3">
                             {[
                                 { label: "Início", href: "#inicio" },
@@ -69,7 +69,7 @@ export default function Footer() {
             <div data-reveal data-delay="300" className="border-t border-white/10">
                 <div className="container mx-auto px-6 lg:px-12 py-6 flex flex-col md:flex-row justify-between items-center">
                     <p className="text-xs text-white/80">&copy; {new Date().getFullYear()} Germana Medeiros. Todos os direitos reservados.</p>
-                    <p className="text-xs text-white/60 mt-2 md:mt-0">Psicóloga Clínica</p>
+                    <p className="text-xs text-white/90 mt-2 md:mt-0">Psicóloga Clínica</p>
                 </div>
             </div>
         </footer>

@@ -51,13 +51,13 @@ export default function FormularioAvaliacao() {
                 <div data-reveal="fade" className="text-center mb-14">
                     <div className="flex items-center justify-center gap-4 mb-8">
                         <div className="w-12 h-0.5 bg-gold/90" />
-                        <span className="text-xs text-navy/50 uppercase tracking-[0.25em] font-medium">Autoavaliação</span>
+                        <span className="text-xs text-navy/80 uppercase tracking-[0.25em] font-medium">Autoavaliação</span>
                         <div className="w-12 h-0.5 bg-gold/90" />
                     </div>
                     <h2 className="font-serif text-3xl lg:text-4xl text-navy mb-4 tracking-tight leading-tight">
                         O que você está sentindo neste momento?
                     </h2>
-                    <p className="text-base text-navy/60 font-normal">Você pode marcar uma ou mais opções</p>
+                    <p className="text-base text-navy/90 font-normal">Você pode marcar uma ou mais opções</p>
                 </div>
 
                 <div data-reveal className="grid grid-cols-1 sm:grid-cols-2 gap-3">

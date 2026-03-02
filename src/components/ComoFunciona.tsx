@@ -60,7 +60,7 @@ export default function ComoFunciona() {
                 <div data-reveal="fade" className="text-center mb-20">
                     <div className="flex items-center justify-center gap-4 mb-8">
                         <div className="w-12 h-0.5 bg-gold/70" />
-                        <span className="text-xs text-cream/50 uppercase tracking-[0.25em] font-medium">Como Funciona</span>
+                        <span className="text-xs text-cream/90 uppercase tracking-[0.25em] font-medium">Como Funciona</span>
                         <div className="w-12 h-0.5 bg-gold/70" />
                     </div>
                     <h2 className="font-serif text-4xl lg:text-5xl text-cream mb-4 tracking-tight">
@@ -74,11 +74,11 @@ export default function ComoFunciona() {
                             key={idx}
                             data-reveal
                             data-delay={String(idx * 70)}
-                            className="group bg-cream/[0.04] backdrop-blur-sm border border-cream/6 rounded-2xl p-8 hover:bg-cream/[0.08] transition-all duration-500"
+                            className="group bg-cream/4 backdrop-blur-sm border border-cream/6 rounded-2xl p-8 hover:bg-cream/8 transition-all duration-500"
                         >
                             <span className="text-gold/60 font-serif text-3xl font-light block mb-5">{step.num}</span>
                             <h3 className="font-serif text-lg text-cream font-medium mb-4 leading-snug">{step.title}</h3>
-                            <p className="text-sm text-cream/55 font-normal leading-relaxed">{step.desc}</p>
+                            <p className="text-sm text-cream/90 font-normal leading-relaxed">{step.desc}</p>
                         </div>
                     ))}
                 </div>
