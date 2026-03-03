@@ -66,12 +66,12 @@ export default function FormularioAvaliacao() {
                             key={idx}
                             onClick={() => toggle(idx)}
                             className={`group flex items-center gap-3.5 text-left p-4 rounded-xl border transition-all duration-300 min-h-20 ${checked[idx]
-                                ? "bg-rose/10 border-rose/30 shadow-sm"
+                                ? "bg-navy/10 border-navy/30 shadow-sm"
                                 : "bg-white border-navy/12 hover:border-navy/30 hover:shadow-md"
                                 }`}
                         >
                             <span
-                                className={`w-5 h-5 rounded border-2 flex items-center justify-center shrink-0 transition-all duration-300 ${checked[idx] ? "bg-rose border-rose text-white" : "border-navy/30 group-hover:border-rose/50"
+                                className={`w-5 h-5 rounded border-2 flex items-center justify-center shrink-0 transition-all duration-300 ${checked[idx] ? "bg-navy border-navy text-white" : "border-navy/30 group-hover:border-navy/50"
                                     }`}
                             >
                                 {checked[idx] && (
@@ -90,7 +90,7 @@ export default function FormularioAvaliacao() {
                     <div className="flex items-center gap-3.5 p-4 rounded-xl border border-navy/12 bg-white shadow-sm transition-all duration-300 focus-within:border-navy/30 focus-within:shadow-md hover:border-navy/30">
                         <span className="w-5 h-5 rounded border-2 border-navy/30 flex items-center justify-center shrink-0">
                             {outro.trim() && (
-                                <span className="w-2 h-2 rounded-sm bg-rose" />
+                                <span className="w-2 h-2 rounded-sm bg-navy" />
                             )}
                         </span>
                         <input
@@ -107,10 +107,10 @@ export default function FormularioAvaliacao() {
                 {selectedCount > 0 && (
                     <div className="mt-10 text-center animate-fade-up">
                         <a
-                            href={`https://wa.me/558591990688?text=${buildMsg()}`}
+                            href={`https://wa.me/5585991990688?text=${buildMsg()}`}
                             target="_blank"
                             rel="noreferrer"
-                            className="inline-flex items-center gap-2 bg-rose text-cream text-sm px-8 py-4 rounded-full hover:bg-rose-dark transition-all duration-500 tracking-wide uppercase shadow-md shadow-rose/20 hover:shadow-lg hover:-translate-y-1"
+                            className="inline-flex items-center gap-2 bg-navy text-cream text-sm px-8 py-4 rounded-full hover:bg-navy-light transition-all duration-500 tracking-wide uppercase shadow-md shadow-navy/20 hover:shadow-lg hover:-translate-y-1"
                         >
                             Enviar avaliação
                             <svg className="w-4 h-4 transition-transform duration-300 hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>

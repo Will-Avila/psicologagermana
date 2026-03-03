@@ -53,8 +53,7 @@ export default function ComoFunciona() {
             {/* Micro Grid Overlay */}
             <div className="absolute inset-0 bg-[linear-gradient(rgba(237,232,224,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(237,232,224,0.03)_1px,transparent_1px)] bg-size-[40px_40px] pointer-events-none -z-10 mix-blend-overlay" />
 
-            {/* Decorative */}
-            <div className="absolute bottom-0 left-12 w-px h-64 bg-linear-to-t from-gold/20 to-transparent pointer-events-none" />
+
 
             <div className="container mx-auto px-6 lg:px-12 max-w-6xl relative z-10">
                 <div data-reveal="fade" className="text-center mb-20">
@@ -74,7 +73,7 @@ export default function ComoFunciona() {
                             key={idx}
                             data-reveal
                             data-delay={String(idx * 70)}
-                            className="group bg-cream/4 backdrop-blur-sm border border-cream/6 rounded-2xl p-8 hover:bg-cream/8 transition-all duration-500"
+                            className={`group bg-cream/4 backdrop-blur-sm border border-cream/6 rounded-2xl p-8 hover:bg-cream/8 transition-all duration-500 ${idx === steps.length - 1 ? "lg:col-span-3" : ""}`}
                         >
                             <span className="text-gold/60 font-serif text-3xl font-light block mb-5">{step.num}</span>
                             <h3 className="font-serif text-lg text-cream font-medium mb-4 leading-snug">{step.title}</h3>

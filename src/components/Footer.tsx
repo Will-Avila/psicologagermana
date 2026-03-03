@@ -16,10 +16,13 @@ export default function Footer() {
                     {/* Brand */}
                     <div data-reveal data-delay="0" className="md:col-span-5">
                         <div className="mb-6 inline-block opacity-90 transition-opacity duration-300 hover:opacity-100">
-                            <img src="/images/logo-germana-psicologa.webp" alt="Germana Medeiros - Psicóloga Clínica" className="h-16 w-auto object-contain brightness-0 invert" />
+                            <img src="./images/logo-germana-psicologa.webp" alt="Germana Medeiros - Psicóloga Clínica" className="h-16 w-auto object-contain brightness-0 invert" />
                         </div>
                         <p className="text-sm text-white/90 font-normal leading-relaxed max-w-sm">
-                            Acolhimento, ética e ciência a serviço do seu bem-estar emocional. Acompanhamento presencial e online.
+                            Acolhimento, ética e ciência a serviço do seu bem-estar emocional. Acompanhamento online.
+                        </p>
+                        <p className="text-xs text-white/60 tracking-wider font-medium">
+                            CRP 02221
                         </p>
                     </div>
 
@@ -27,17 +30,17 @@ export default function Footer() {
                     <div data-reveal data-delay="100" className="md:col-span-3">
                         <p className="text-xs text-white/95 uppercase tracking-[0.25em] mb-6 font-medium">Contato</p>
                         <div className="space-y-4">
-                            <a href="tel:+558591990688" className="group flex items-center gap-3 text-sm text-white/80 hover:text-white transition-colors duration-300">
-                                <svg className="w-4 h-4 text-white/60 group-hover:text-gold transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
-                                (85) 9199-0688
+                            <a href="https://wa.me/5585991990688?text=Ol%C3%A1%20Germana%2C%20acessei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer" className="group flex items-center gap-3 text-sm text-white/80 hover:text-white transition-colors duration-300">
+                                <svg className="w-4 h-4 text-white/60 group-hover:text-gold transition-colors duration-300 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg>
+                                (85) 99199-0688
                             </a>
-                            <a href="https://wa.me/558591990688" target="_blank" rel="noreferrer" className="group flex items-center gap-3 text-sm text-white/80 hover:text-white transition-colors duration-300">
-                                <svg className="w-4 h-4 text-white/60 group-hover:text-gold transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" /></svg>
-                                WhatsApp
+                            <a href="mailto:contato@psicologagermanamedeiros.com.br" className="group flex items-center gap-3 text-sm text-white/80 hover:text-white transition-colors duration-300">
+                                <svg className="w-4 h-4 text-white/60 group-hover:text-gold transition-colors duration-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+                                contato@psicologagermanamedeiros.com.br
                             </a>
-                            <a href="https://instagram.com/germanampsicologia" target="_blank" rel="noreferrer" className="group flex items-center gap-3 text-sm text-white/80 hover:text-white transition-colors duration-300">
+                            <a href="https://instagram.com/psicologagermanamedeiros" target="_blank" rel="noreferrer" className="group flex items-center gap-3 text-sm text-white/80 hover:text-white transition-colors duration-300">
                                 <svg className="w-4 h-4 text-white/60 group-hover:text-gold transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="5" /><circle cx="17.5" cy="6.5" r="1" /></svg>
-                                @germanampsicologia
+                                @psicologagermanamedeiros
                             </a>
                         </div>
                     </div>
@@ -66,10 +69,14 @@ export default function Footer() {
             </div>
 
             {/* Bottom bar */}
-            <div data-reveal data-delay="300" className="border-t border-white/10">
-                <div className="container mx-auto px-6 lg:px-12 py-6 flex flex-col md:flex-row justify-between items-center">
-                    <p className="text-xs text-white/80">&copy; {new Date().getFullYear()} Germana Medeiros. Todos os direitos reservados.</p>
-                    <p className="text-xs text-white/90 mt-2 md:mt-0">Psicóloga Clínica</p>
+            <div className="border-t border-white/15">
+                <div className="container mx-auto px-6 lg:px-12 py-6 flex flex-col md:flex-row justify-between items-center gap-3">
+                    <p className="text-xs text-white/70 text-center md:text-left">
+                        &copy; {new Date().getFullYear()} Germana Medeiros &mdash; Psicóloga Clínica &bull; CRP 02221
+                    </p>
+                    <p className="text-[10px] text-white/50 tracking-wider uppercase">
+                        Todos os direitos reservados
+                    </p>
                 </div>
             </div>
         </footer>

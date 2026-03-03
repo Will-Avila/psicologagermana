@@ -18,13 +18,12 @@ export default function SobreMim() {
                     <div data-reveal="left" data-delay="100" className="lg:col-span-5 flex justify-start order-2 lg:order-1">
                         <div className="relative w-full max-w-md group">
                             <div className="absolute -inset-4 border border-gold/10 rounded-tl-[4rem] rounded-br-[4rem] rounded-tr-2xl rounded-bl-2xl transition-all duration-500 group-hover:border-gold/30" />
-                            <div className="bg-linear-to-b from-sand/50 to-rose-light/30 rounded-tl-[4rem] rounded-br-[4rem] rounded-tr-2xl rounded-bl-2xl overflow-hidden aspect-3/4 flex items-center justify-center transform-[translateZ(0)] isolate">
-                                <div className="text-center px-8">
-                                    <div className="w-14 h-14 mx-auto mb-4 border border-navy/8 rounded-full flex items-center justify-center">
-                                        <svg className="w-5 h-5 text-navy/15" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1}><path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" /><path strokeLinecap="round" strokeLinejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" /></svg>
-                                    </div>
-                                    <p className="text-[10px] text-navy/20 uppercase tracking-[0.2em]">public/images/sobre-1.jpg</p>
-                                </div>
+                            <div className="bg-linear-to-b from-sand/50 to-rose-light/30 rounded-tl-[4rem] rounded-br-[4rem] rounded-tr-2xl rounded-bl-2xl overflow-hidden aspect-3/4 transform-[translateZ(0)] isolate">
+                                <img
+                                    src="./images/psicologa-germana-sobre1.webp"
+                                    alt="Germana Medeiros - Psicóloga Clínica"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
                         </div>
                     </div>
@@ -39,9 +38,12 @@ export default function SobreMim() {
                             <h2 className="font-serif text-4xl lg:text-5xl text-navy tracking-tight leading-tight">
                                 Germana Medeiros
                             </h2>
+                            <p className="text-sm text-navy/60 uppercase tracking-[0.2em] mt-3 font-medium">
+                                Psicóloga Clínica &bull; CRP 02221
+                            </p>
                         </div>
 
-                        <div className="space-y-5 text-base text-navy/90 font-normal leading-[1.85]">
+                        <div className="space-y-5 text-base text-navy/90 font-normal leading-[1.85] mt-2">
                             <p data-reveal data-delay="50">
                                 Olá, sou Germana, psicóloga graduada pela <span className="text-navy font-medium">Universidade Federal do Ceará</span> desde 2000.
                             </p>
@@ -64,7 +66,7 @@ export default function SobreMim() {
                 {/* --- Part 2: Texto na Esquerda, Imagem na Direita --- */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
                     {/* Text 2 (Left) */}
-                    <div className="lg:col-span-7 flex flex-col space-y-6 order-2 lg:order-1">
+                    <div className="lg:col-span-7 flex flex-col space-y-6 order-1 lg:order-1">
                         <div className="space-y-5 text-base text-navy/90 font-normal leading-[1.85]">
                             <p data-reveal data-delay="0">
                                 Sou também mãe — e essa vivência amplia minha compreensão sobre responsabilidade, cuidado, limites, sobrecarga e os desafios emocionais que atravessam diferentes fases da vida.
@@ -86,7 +88,7 @@ export default function SobreMim() {
                             </p>
 
                             <div data-reveal data-delay="200">
-                                <a href="https://wa.me/558591990688" target="_blank" rel="noreferrer" className="btn-rose group px-10! py-4! shadow-lg shadow-rose-vibrant/20">
+                                <a href="https://wa.me/5585991990688?text=Ol%C3%A1%20Germana%2C%20acessei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer" className="btn-navy group px-10! py-4! shadow-lg shadow-navy/20">
                                     Agendar uma sessão
                                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
                                 </a>
@@ -95,16 +97,15 @@ export default function SobreMim() {
                     </div>
 
                     {/* Photo 2 (Right) */}
-                    <div data-reveal="right" data-delay="100" className="lg:col-span-5 flex justify-end order-1 lg:order-2">
+                    <div data-reveal="right" data-delay="100" className="lg:col-span-5 flex justify-end order-2 lg:order-2">
                         <div className="relative w-full max-w-md mt-8 lg:mt-0 group">
                             <div className="absolute -inset-4 border border-rose-light/40 rounded-tl-[4rem] rounded-br-[4rem] rounded-tr-2xl rounded-bl-2xl transition-all duration-500 group-hover:border-rose/60" />
-                            <div className="bg-linear-to-t from-sand/40 to-cream rounded-tl-[4rem] rounded-br-[4rem] rounded-tr-2xl rounded-bl-2xl overflow-hidden aspect-4/5 flex items-center justify-center transform-[translateZ(0)] isolate">
-                                <div className="text-center px-8">
-                                    <div className="w-14 h-14 mx-auto mb-4 border border-navy/8 rounded-full flex items-center justify-center">
-                                        <svg className="w-5 h-5 text-navy/15" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1}><path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" /><path strokeLinecap="round" strokeLinejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" /></svg>
-                                    </div>
-                                    <p className="text-[10px] text-navy/20 uppercase tracking-[0.2em]">public/images/sobre-2.jpg</p>
-                                </div>
+                            <div className="bg-linear-to-t from-sand/40 to-cream rounded-tl-[4rem] rounded-br-[4rem] rounded-tr-2xl rounded-bl-2xl overflow-hidden aspect-4/5 transform-[translateZ(0)] isolate">
+                                <img
+                                    src="./images/psicologa-germana-sobre2.webp"
+                                    alt="Germana Medeiros - Psicóloga Clínica"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
                         </div>
                     </div>

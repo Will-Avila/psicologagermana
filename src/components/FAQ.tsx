@@ -22,7 +22,7 @@ const faqs = [
     },
     {
         q: "As sessões são presenciais ou online?",
-        a: "Atendo tanto presencialmente quanto online, com a mesma qualidade e comprometimento. O formato online é prático, seguro e permite que você faça terapia de qualquer lugar, mantendo a regularidade e a continuidade do tratamento.",
+        a: "Atendo exclusivamente online, com toda a qualidade e comprometimento. O formato online é prático, seguro e permite que você faça terapia de qualquer lugar, mantendo a regularidade e a continuidade do tratamento.",
     },
     {
         q: "Preciso tomar medicação durante a terapia?",
@@ -86,7 +86,7 @@ export default function FAQ() {
 
                 <div data-reveal data-delay="200" className="text-center mt-16">
                     <p className="text-navy/90 mb-6 text-base font-normal">Ainda tem dúvidas?</p>
-                    <a href="https://wa.me/558591990688" target="_blank" rel="noreferrer" className="btn-rose group px-8! py-4! shadow-lg shadow-rose-vibrant/20">
+                    <a href="https://wa.me/5585991990688?text=Ol%C3%A1%20Germana%2C%20acessei%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noreferrer" className="btn-navy group px-8! py-4! shadow-lg shadow-navy/20">
                         Falar com Germana
                         <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
                     </a>
