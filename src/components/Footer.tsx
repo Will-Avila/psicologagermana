@@ -47,7 +47,7 @@ export default function Footer() {
 
                     {/* Links */}
                     <div data-reveal data-delay="200" className="md:col-span-4">
-                        <p className="text-[11px] text-white/80 uppercase tracking-[0.3em] mb-6">Navegação</p>
+                        <p className="text-xs text-white/95 uppercase tracking-[0.25em] mb-6 font-medium">Navegação</p>
                         <div className="grid grid-cols-2 gap-3">
                             {[
                                 { label: "Início", href: "#inicio" },
@@ -72,11 +72,17 @@ export default function Footer() {
             <div className="border-t border-white/15">
                 <div className="container mx-auto px-6 lg:px-12 py-6 flex flex-col md:flex-row justify-between items-center gap-3">
                     <p className="text-xs text-white/70 text-center md:text-left">
-                        &copy; {new Date().getFullYear()} Germana Medeiros &mdash; Psicóloga Clínica &bull; CRP 02221
+                        &copy; 2026 Germana Medeiros &mdash; Psicóloga Clínica &bull; CRP 02221
                     </p>
-                    <p className="text-[10px] text-white/50 tracking-wider uppercase">
-                        Todos os direitos reservados
-                    </p>
+                    <div className="flex flex-wrap justify-center md:justify-end items-center gap-4 mt-2 md:mt-0">
+                        <a href="/termos" className="text-[10px] text-white/50 hover:text-white/80 transition-colors uppercase tracking-wider">
+                            Termos de Uso e Política de Privacidade
+                        </a>
+                        <span className="hidden md:inline-block text-white/20">•</span>
+                        <p className="text-[10px] text-white/50 tracking-wider uppercase">
+                            Todos os direitos reservados
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>

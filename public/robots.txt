@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /termos/
+
+Sitemap: https://psicologagermanamedeiros.com.br/sitemap.xml

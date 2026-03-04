@@ -14,7 +14,7 @@ export default function SobrePsicoterapia() {
                 <div data-reveal="fade" className="text-center mb-14">
                     <div className="flex items-center justify-center gap-4 mb-8">
                         <div className="w-12 h-0.5 bg-gold/90" />
-                        <span className="text-xs text-navy/80 uppercase tracking-[0.25em] font-medium">Sobre a Psicoterapia</span>
+                        <h2 className="text-xs text-navy/80 uppercase tracking-[0.25em] font-medium">Sobre a Psicoterapia</h2>
                         <div className="w-12 h-0.5 bg-gold/90" />
                     </div>
                 </div>

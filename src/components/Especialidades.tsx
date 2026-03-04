@@ -92,7 +92,7 @@ export default function Especialidades() {
                 <div data-reveal="fade" className="text-center mb-16">
                     <div className="flex items-center justify-center gap-4 mb-8">
                         <div className="w-12 h-0.5 bg-gold/90" />
-                        <span className="text-xs text-navy/80 uppercase tracking-[0.25em] font-medium">Especialidades</span>
+                        <h2 className="text-xs text-navy/80 uppercase tracking-[0.25em] font-medium">Especialidades</h2>
                         <div className="w-12 h-0.5 bg-gold/90" />
                     </div>
                 </div>
