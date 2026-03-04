@@ -24,7 +24,7 @@ export default function Hero() {
                     </div>
 
                     <h1 data-reveal data-delay="100" className="font-serif text-[2.4rem] md:text-[3.2rem] lg:text-[3.5rem] xl:text-[3.8rem] text-navy leading-[1.1] tracking-[-0.01em] text-center lg:text-left text-balance">
-                        &ldquo;Aqui, a terapia é um caminho para viver com mais <span className="italic text-rose-vibrant">leveza e significado</span>.&rdquo;
+                        Aqui, a terapia é um caminho para viver com mais <span className="italic text-rose-vibrant">leveza e significado</span>
                     </h1>
 
                     <p data-reveal data-delay="200" className="text-base md:text-lg text-navy/90 font-normal max-w-xl leading-relaxed text-center lg:text-left">
